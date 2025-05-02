@@ -1,0 +1,6 @@
+Aby pracować z javą należy mieć przygotowane odpowiednie środowisko
+w tym przypadku jest to IntelliJ od JetBrains.
+
+Oprócz IDE należy oczywiście zainstalować JDK które pozwoli nam uruchamiać pliki javy.
+Bez tego zgodnie z opisem z poprzedniego zadania system nie będzie w stanie
+tłumaczyć plików z rozszerzeniem .class na naszym systemie operacyjnym.

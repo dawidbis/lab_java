@@ -1,0 +1,10 @@
+Java to objektowy język programowania stworzony wg idei "WORA".
+"Write Once, Run Anywhere" co oznacza że raz skompilowany program
+będzie działać na każdej architekturze sprzętowej z zainstalowaną maszyną wirtualną Javy.
+
+Napisane programy w javie zapisane są z rozszerzeniem .java
+następnie w procesie kompilacji przez javac takie pliki są gotowe do pracy
+na każdym systemie operacyjnym jeśli znajduje się na nim JVM.
+
+na przykładzie klasy Main działa to tak:
+Main.java (kompilacja) -> Main.class (JVM) -> Program działa
