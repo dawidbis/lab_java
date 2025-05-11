@@ -1,0 +1,21 @@
+Podstawowe informacje o składni javy:
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, world!");
+    }
+}
+
+    1. public class HelloWorld
+public – modyfikator dostępu. Oznacza, że klasa jest widoczna z każdego miejsca w programie (nawet z innych pakietów).
+class – słowo kluczowe informujące, że definiujemy klasę.
+HelloWorld – nazwa klasy. W Javie przyjęto, że nazwy klas zaczynają się wielką literą i stosuje się styl CamelCase.
+Zasada: Nazwa pliku .java musi być taka sama jak nazwa klasy publicznej znajdującej się w tym pliku. Czyli HelloWorld.java.
+
+    2. public static void main(String[] args)
+To jest punkt wejścia do programu Java. Gdy uruchamiamy aplikację, JVM (Java Virtual Machine) zaczyna wykonanie właśnie od tej metody.
+
+public – metoda musi być dostępna dla JVM, która wywołuje ją spoza klasy.
+static – nie trzeba tworzyć instancji klasy, żeby wywołać tę metodę.
+main – to konkretna nazwa metody, której JVM szuka jako punkt startowy.
+String[] args – tablica argumentów wiersza poleceń przekazanych do programu.
